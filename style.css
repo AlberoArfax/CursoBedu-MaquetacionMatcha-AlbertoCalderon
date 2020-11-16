@@ -784,10 +784,6 @@ footer .down p {
 /*Fin estilos footer*/
 
 @media (max-width: 991px) {
-    body {
-        background-color: yellow;
-    }
-
     header img {
         width: 200px;
     }
@@ -814,6 +810,86 @@ footer .down p {
     }
 
     .tools .tools-phrase {
+        text-align: center;
+    }
+}
+
+@media (max-width: 810px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 220px;
+    }
+
+    header .logo {
+        margin-bottom: 10px;
+    }
+
+    header .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .nav-bar .nav-list {
+        margin-bottom: 20px;
+    }
+
+    .trusted-brands {
+        margin-top: 300px;
+    }
+
+    .table-compare h2 {
+        text-align: center;
+    }
+
+    .growing {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .growing .growing-texts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .growing .growing-texts h2 {
+        text-align: center;
+    }
+
+    .growing .growing-texts button {
+        margin-bottom: 40px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .trusted-brands {
+        margin-top: 400px;
+    }
+
+    .trusted-brands img{
+        width: 60px;
+    }
+
+    .features .features-cards img{
+        width: 120px;
+    }
+
+    .get-started .getstarted-words p {
+        font-size: 20px;
+    }
+
+    .get-started .actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started .actions button {
+        width: 100px;
+    }
+
+    .get-started .actions p {
         text-align: center;
     }
 }
