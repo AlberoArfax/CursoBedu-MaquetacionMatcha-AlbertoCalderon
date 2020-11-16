@@ -782,3 +782,38 @@ footer .down p {
     font-family: sans-serif;
 }
 /*Fin estilos footer*/
+
+@media (max-width: 991px) {
+    body {
+        background-color: yellow;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    header .nav-bar .nav-list {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    header .nav-bar .acciones {
+        padding-left: 20px;
+    }
+
+    header .nav-bar .acciones button {
+        width: 70px;
+    }
+
+    .trusted-brands {
+        margin-top: 200px;
+    }
+
+    .features .features-cards img {
+        width: 250px;
+    }
+
+    .tools .tools-phrase {
+        text-align: center;
+    }
+}
